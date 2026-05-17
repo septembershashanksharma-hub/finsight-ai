@@ -1,0 +1,15 @@
+COLUMNS   - DESCRIPTION
+grade - A to G: 7 grades. This is the standard Lending Club grading system: A = Lowest risk, lowest interest rate. G = Highest risk, highest interest rate
+loan_status - Current, Default etc
+
+grade, sub_grade —> loan risk grade (A-G) — key feature for our model
+purpose —> reason for loan
+addr_state —> borrower's state
+home_ownership —> renter/owner/mortgage
+verification_status —> income verified or not
+emp_length —> employment length
+loan_status —> our target variable (already have is_default)
+Others — various categorical flags
+
+
+dti -> debt to income 
